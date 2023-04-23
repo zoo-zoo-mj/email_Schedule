@@ -23,7 +23,7 @@ jobs:
         with:
           server_address: smtp.gmail.com
           server_port: 465
-          username: jujuaditya037
+          username: jujuaditya037@gmail.com
           password: Aditya@039
           subject: 'GitHub Action Job Status: ${{ job.status }}'
           body: 'The job ${{ github.job }} has completed with ${{ job.status }} status.'
